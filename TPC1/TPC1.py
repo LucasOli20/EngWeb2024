@@ -5,10 +5,12 @@ html = """
 <!DOCTYPE html>
 <html lang="pt-PT">
 <head>
-    <title>Ruas</title>
+    <title>EngWeb2024_TPC1</title>
     <meta charset="utf-8">
 </head>
 <body>
+<h1>Ruas de Braga</h1>
+<p><b>Escolha uma rua para ver os detalhes dela:</b></p>
 """
 
 template = """<!DOCTYPE html>
