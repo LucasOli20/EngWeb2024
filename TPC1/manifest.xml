@@ -2,7 +2,7 @@
 
 <doc>
     <meta>
-        <title>TPC1: Exemplo</title>
+        <title>TPC1</title>
         <date>2024-02-05</date>
         <author>
             <id>A98695</id>
@@ -14,12 +14,13 @@
         </UC>
     </meta>
     <resumo>
-        <p>Primeiro parágrafo</p>
-        <p>Segundo parágrafo</p>
-        <p>Terceiro parágrafo com <url>link</url><texto>url embutido</texto></p>
+        <p>Criar um índice de páginas contendo todas as ruas de Braga fornecidas no conjunto de dados, ordenando esse índice por ordem alfabética.</p>
+        <p>Desenvolver páginas individuais contendo as informações disponíveis sobre cada rua.</p>
+        <p>Cada página deve incluir um botão para retornar à página anterior.</p>
+        <p>Os materiais necessários para a realização deste trabalho prático estão disponíveis aqui<url>https://epl.di.uminho.pt/~jcr/AULAS/EngWeb2024/semana1/MapaRuas-materialBase.zip</url><texto>url embutido</texto></p>
     </resumo>
     <resultados>
-        <resultado>resultado 1</resultado>
-        <resultado>resultado 2</resultado>
+        <resultado>Índice das ruas completo, ordenadas por ordem alfabética.</resultado>
+        <resultado>Todas as páginas de detalhes das ruas estão completas.</resultado>
     </resultados>
 </doc>
