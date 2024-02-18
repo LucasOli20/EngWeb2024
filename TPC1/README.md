@@ -1,9 +1,11 @@
-# TPC1
+# TPC1 - Mapa das Ruas de Braga
+
+## 2024-02-05
 
 ## Autor
 
-**Nome:** Lucas Oliveira
-**Nr.Aluno:** A98695
+- **Nome:** Lucas Oliveira
+- **Nr.Aluno:** A98695
 
 **Resumo:** Utilizando um conjunto de dados no formato XML fornecido pelos docentes, contendo informações sobre 60 ruas da cidade de Braga, desenvolvemos um website que permite visualizar os detalhes de cada rua.
 
