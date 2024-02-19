@@ -109,43 +109,44 @@ for ficheiro in sorted(ficheiros):
 
     Elements_listaCasa = root.getElementsByTagName("lista-casas")
     if Elements_listaCasa:
-        for casa in Elements_listaCasa[0].getElementsByTagName("casa"):
+        for casas in Elements_listaCasa:
+            for casa in casas.getElementsByTagName("casa"):
 
-            numero_element = casa.getElementsByTagName("número")
-            casa_numero = casa.getElementsByTagName("número")[0].firstChild.nodeValue.strip() if numero_element and numero_element[0].firstChild else "Não possui número"
+                numero_element = casa.getElementsByTagName("número")
+                casa_numero = casa.getElementsByTagName("número")[0].firstChild.nodeValue.strip() if numero_element and numero_element[0].firstChild else "Não possui número"
 
-            enfiteuta_element = casa.getElementsByTagName("enfiteuta")
-            casa_enfiteuta = casa.getElementsByTagName("enfiteuta")[0].firstChild.nodeValue.strip() if enfiteuta_element and enfiteuta_element[0].firstChild else "Não possui enfiteuta"
-            
-            foro_element = casa.getElementsByTagName("foro")
-            casa_foro = casa.getElementsByTagName("foro")[0].firstChild.nodeValue.strip() if foro_element and foro_element[0].firstChild is not None else "Não possui foro"
+                enfiteuta_element = casa.getElementsByTagName("enfiteuta")
+                casa_enfiteuta = casa.getElementsByTagName("enfiteuta")[0].firstChild.nodeValue.strip() if enfiteuta_element and enfiteuta_element[0].firstChild else "Não possui enfiteuta"
+
+                foro_element = casa.getElementsByTagName("foro")
+                casa_foro = casa.getElementsByTagName("foro")[0].firstChild.nodeValue.strip() if foro_element and foro_element[0].firstChild is not None else "Não possui foro"
 
 
-            templateRua += f'<dt> <b>Nr. da Casa:</b> {casa_numero}'
-            templateRua += f'<dd> <b>Enfiteuta:</b> {casa_enfiteuta}</dd>'
-            templateRua += f'<dd> <b>Foro:</b> {casa_foro}</dd>'
+                templateRua += f'<dt> <b>Nr. da Casa:</b> {casa_numero}'
+                templateRua += f'<dd> <b>Enfiteuta:</b> {casa_enfiteuta}</dd>'
+                templateRua += f'<dd> <b>Foro:</b> {casa_foro}</dd>'
 
-            casa_desc = casa.getElementsByTagName("desc")
-            if casa_desc:
-                templateRua += f'<dd> <b>Descrição:</b> '
-                casa_desc_children = casa_desc[0].childNodes
+                casa_desc = casa.getElementsByTagName("desc")
+                if casa_desc:
+                    templateRua += f'<dd> <b>Descrição:</b> '
+                    casa_desc_children = casa_desc[0].childNodes
 
-                for child in casa_desc_children:
-                    if child.nodeName == 'para':
-                        paragraf = ""
-                        for node in child.childNodes:
-                            if node.nodeType == node.TEXT_NODE:
-                                paragraf += node.nodeValue
-                            elif node.nodeName == 'lugar':
-                                paragraf += f'<b>{node.firstChild.nodeValue}</b>'
-                            elif node.nodeName == 'data':
-                                paragraf += f'<b>{node.firstChild.nodeValue}</b>'
-                            elif node.nodeName == 'entidade':
-                                paragraf += f'<b>{node.firstChild.nodeValue}</b>'
-                        
-                        templateRua += f'{paragraf}'
-                
-                templateRua += f'</dd>'
+                    for child in casa_desc_children:
+                        if child.nodeName == 'para':
+                            paragraf = ""
+                            for node in child.childNodes:
+                                if node.nodeType == node.TEXT_NODE:
+                                    paragraf += node.nodeValue
+                                elif node.nodeName == 'lugar':
+                                    paragraf += f'<b>{node.firstChild.nodeValue}</b>'
+                                elif node.nodeName == 'data':
+                                    paragraf += f'<b>{node.firstChild.nodeValue}</b>'
+                                elif node.nodeName == 'entidade':
+                                    paragraf += f'<b>{node.firstChild.nodeValue}</b>'
+
+                            templateRua += f'{paragraf}'
+
+                    templateRua += f'</dd>'
 
     templateRua += '</dl>'
 
