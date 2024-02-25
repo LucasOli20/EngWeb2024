@@ -1,0 +1,31 @@
+<?xml version="1.0" enconding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC2 - Página web de uma Escola de Música</title>
+        <date>2024-02-19</date>
+        <author>
+            <id>A98695</id>
+            <nome>Lucas Oliveira</nome>
+        </author>
+        <UC>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </UC>
+    </meta>
+    <resumo>
+        <p>Criar uma página web em Node.js que apresenta dados de uma escola de música, incluindo informações sobre alunos, cursos e instrumentos, utilizando o json-server como base de funcionamento.</p>
+        <p>A página web deverá incluir índices com listas de alunos, instrumentos e cursos, além de páginas detalhadas sobre os alunos e cursos.</p>
+        <p>Cada página de índice e detalhes deve incluir um botão "Voltar" para retornar à página anterior.</p>
+        <p>Os materiais necessários para a realização deste trabalho prático estão disponíveis aqui<url>https://epl.di.uminho.pt/~jcr/TRANSF/db.json</url><texto>url embutido</texto></p>
+    </resumo>
+    <resultados>
+        <resultado>A página principal '/' com redirecionamento para as páginas de listagem de alunos, cursos e instrumentos.</resultado>
+        <resultado>A página da lista de alunos '/alunos' apresenta os alunos ordenados alfabeticamente pelo nome.</resultado>
+        <resultado>A página de detalhes do aluno "AXXXX" em '/alunos/AXXXX' exibe o ID, nome, data de nascimento, curso (com um link para a página do curso), ano do curso e instrumento do aluno (com um link para a página do instrumento).</resultado>
+        <resultado>A página da lista de cursos '/cursos' apresenta os cursos ordenados alfabeticamente pela sua designação.</resultado>
+        <resultado>A página de detalhes do curso "CXXXX" em '/cursos/CXXXX' exibe o ID, duração e instrumento associados ao curso (com um link para a página do instrumento).</resultado>
+        <resultado>A página da lista de instrumentos '/instrumentos' apresenta os instrumentos ordenados alfabeticamente pelo nome.</resultado>
+        <resultado>A página de detalhes do instrumento "NomeDoInstrumento" em 'instrumentos/NomeDoInstrumento' exibe o ID e a designação do isntrumento.</resultado>
+    </resultados>
+</doc>
