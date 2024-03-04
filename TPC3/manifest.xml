@@ -1,0 +1,32 @@
+<?xml version="1.0" enconding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC3 - Página web de Filmes</title>
+        <date>2024-02-26</date>
+        <author>
+            <id>A98695</id>
+            <nome>Lucas Oliveira</nome>
+        </author>
+        <UC>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </UC>
+    </meta>
+    <resumo>
+        <p>Corrigir e transformar o ficheiro json fornecido pela equipa docente da melhor forma que acharmos.</p>
+        <p>Criar uma página web que apresenta dados de filmes, incluindo informações sobre filmes, generos e atores, utilizando o json-server como base de funcionamento.</p>
+        <p>A página web deverá incluir índices com listas de filmes, generos e atores, além de páginas detalhadas sobre os filmes e links que redirecionam para ou filmes ou generos ou atores.</p>
+        <p>Cada página de índice e detalhes deve incluir um botão "Voltar" para retornar à página anterior.</p>
+        <p>Os materiais necessários para a realização deste trabalho prático estão disponíveis aqui<url>https://elearning.uminho.pt/bbcswebdav/pid-1437448-dt-content-rid-8024416_1/xid-8024416_1</url><texto>url embutido</texto></p>
+    </resumo>
+    <resultados>
+        <resultado>A página principal '/' com redirecionamento para as páginas de listagem de filmes, generos e atores.</resultado>
+        <resultado>A página da lista de filmes '/filmes' apresenta os filmes ordenados alfabeticamente pelo titulo.</resultado>
+        <resultado>A página de detalhes do filmes "idFilme" em '/alunos/idFilme' exibe o titulo, ano, equipa de cast (com um link em cada ator para a página desse ator), genero (com um link para a página do genero).</resultado>
+        <resultado>A página da lista de generos '/generos' apresenta os generos ordenados alfabeticamente pela sua designação.</resultado>
+        <resultado>A página de detalhes do genero "idGenero" em '/generos/idGenero' exibe o ID e a lista de filmes desse genero (com um link em cada filme para a página do filme escolhido).</resultado>
+        <resultado>A página da lista de atores '/atores' apresenta os atores ordenados alfabeticamente pelo nome.</resultado>
+        <resultado>A página de detalhes do ator "idAtor" em 'atores/idAtor' exibe o ID e a lista de filmes em que o ator participou (com um link em cada filme para a página do filme escolhido).</resultado>
+    </resultados>
+</doc>
