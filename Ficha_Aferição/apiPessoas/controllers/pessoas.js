@@ -36,17 +36,6 @@ module.exports.update = (Bi, pessoa) => {
         .exec()
 }
 
-// module.exports.listModalidades = () => {
-//     return pessoa
-//         .aggregate([
-//             { $unwind: "$pessoas" },
-//             { $unwind: "$pessoas.desportos"},
-//             { $group: {_id: "$pessoas.desportos"} },
-//             { $sort: {_id: 1}}
-//         ])
-//         .exec()
-// }
-
 module.exports.listModalidades = () => {
     return pessoa.aggregate([
         { $unwind: "$pessoas" }, 
@@ -57,5 +46,21 @@ module.exports.listModalidades = () => {
         { $group: { _id: null, desportos: { $push: "$nome" } } }
     ]).exec().then(result => {
         return result.length > 0 ? result[0].desportos : [];
+    });
+};
+
+module.exports.listAtletasModalidade = (modalidade) => {
+    return pessoa.aggregate([
+        {$unwind : "$pessoas"},
+        {$unwind : "$pessoas.desportos"},
+        {$match : {"pessoas.desportos" : modalidade}},
+        {$group : {_id: "$pessoas.nome"}},
+        {$project:{_id: 0, nome: "$_id"}},
+        {$sort: {nome: 1}},
+        {$group: {_id: null, nomes: {$push: "$nome"}}},
+        {$project: {_id: 0, nomes: 1}}
+    ])
+    .exec().then(result => {
+        return result.length > 0 ? result[0].nomes : [];
     });
 };

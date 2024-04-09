@@ -14,6 +14,12 @@ router.get('/modalidades', function(req, res, next){
       .catch(erro => res.jsonp(erro))
 });
 
+router.get('/modalidades/:modalidade', function(req, res, next){
+    Pessoa.listAtletasModalidade(req.params.modalidade)
+      .then(data => res.jsonp(data))
+      .catch(erro => res.jsonp(erro))
+});
+
 router.post('/', function(req, res, next) {
   Pessoa.insert(req.body)
     .then(data => res.jsonp(data))
