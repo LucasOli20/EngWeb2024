@@ -1,0 +1,20 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h1 Periodo id: #{Periodo[0].id}
+
+        .w3-container
+            ul.w3-ul.w3-card-4(style="width:50%")
+                li
+                    b Designação: 
+                    span= Periodo[0].designacao
+
+    .w3-cell.w3-container.w3-margin-bottom
+        a.w3-button.w3-teal(href="/periodos")
+            b Voltar à lista de Periodos
+        a.w3-button.w3-yellow(href="/periodos/edit/" + Periodo[0].id)
+            b Editar Periodo
+        a.w3-button.w3-red(href="/periodos/delete/" + Periodo[0].id)
+            b Apagar Periodo
