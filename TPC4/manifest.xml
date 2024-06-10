@@ -1,0 +1,29 @@
+<?xml version="1.0" enconding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC4 - Página Compositores Musicais</title>
+        <date>2024-03-04</date>
+        <author>
+            <id>A98695</id>
+            <nome>Lucas Oliveira</nome>
+        </author>
+        <UC>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </UC>
+    </meta>
+    <resumo>
+        <p>Criar uma API de dados utilizando JSON-Server e desenvolver uma página em Node.js que exiba informações de um dataset sobre compositores musicais, onde cada compositor possui um id, nome, biografia, data de nascimento, data de óbito e período.</p>
+        <p>A página web deve incluir índices com listas de compositores e períodos musicais, além de oferecer páginas detalhadas para cada compositor e cada período e ainda a aplicação deve suportar operações CRUD tanto para compositores quanto para períodos musicais.</p>
+        <p>Os materiais necessários para a realização deste trabalho prático estão disponíveis na BlackBoard</p>
+    </resumo>
+    <resultados>
+        <resultado>Dataset formatado, com recurso a um script <script>script.py</script> desenvolvido em python.</resultado>
+        <resultado>A página da lista de filmes '/' ou '/compositores' apresenta os compositores ordenados alfabeticamente pelo nome.</resultado>
+        <resultado>A página de detalhes do compositor "id" em '/compositores/id' exibe as informações como pretendido.</resultado>
+        <resultado>A página da lista de periodos '/periodos' apresenta os periodos ordenados alfabeticamente pela sua designação.</resultado>
+        <resultado>A página de detalhes do genero "nome" em '/generos/nome' exibe as informações do periodo.</resultado>
+        <resultado>Foram feitas todas as operações CRUD tanto para os compositores como periodos.</resultado>
+    </resultados>
+</doc>
