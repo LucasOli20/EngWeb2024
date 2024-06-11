@@ -1,0 +1,32 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-teal
+            h1 Compositor id: #{Compositor._id}
+
+        .w3-container
+            ul.w3-ul.w3-card-4(style="width:50%")
+                li
+                    b Nome: 
+                    span= Compositor.nome
+                li
+                    b Data Nascimento: 
+                    span= Compositor.dataNasc
+                li
+                    b Data Obito: 
+                    span= Compositor.dataObito
+                li
+                    b Biografia: 
+                    p= Compositor.bio
+                li
+                    b Periodo: 
+                    a(href="/periodos/" + Compositor.periodo)= Compositor.periodo
+
+    .w3-cell.w3-container.w3-margin-bottom
+        a.w3-button.w3-teal(href="/compositores")
+            b Voltar à lista de Compositores
+        a.w3-button.w3-yellow(href="/compositores/edit/" + Compositor._id)
+            b Editar Compositor
+        a.w3-button.w3-red(href="/compositores/delete/" + Compositor._id)
+            b Apagar Compositor

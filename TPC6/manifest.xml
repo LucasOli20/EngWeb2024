@@ -1,0 +1,25 @@
+<?xml version="1.0" enconding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC5 - Página Compositores Musicais com API E APP</title>
+        <date>2024-03-18</date>
+        <author>
+            <id>A98695</id>
+            <nome>Lucas Oliveira</nome>
+        </author>
+        <UC>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </UC>
+    </meta>
+    <resumo>
+        <p>Desenvolver uma API REST sobre os Compositores e Periodos existentes numa base de dados em MongoDB</p>
+        <p>Desenvolver uma Web APP sobre os Compositores e Periodos recorrendo as operações CRUD</p>
+    </resumo>
+    <resultados>
+        <resultado>API sobre Compositores e Periodos</resultado>
+        <resultado>APP para a gestão de Compositores e Periodos desenvolvida no TPC5</resultado>
+        <resultado>Operações CRUD implementadas</resultado>
+    </resultados>
+</doc>
