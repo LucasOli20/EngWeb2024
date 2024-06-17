@@ -1,0 +1,187 @@
+[
+    {
+        "_id": "1",
+        "tipo": "one",
+        "tema": "Mathematics",
+        "cursoId": "one",
+        "titulo": "Introduction to Algebra",
+        "subtitulo": "Basics of Algebra",
+        "dataCriacao": "2023-01-15",
+        "dataRegisto": "2023-01-16",
+        "idProdutor": "two",
+        "autor": "John Doe",
+        "visibilidade": true,
+        "classificacao": [
+            { "idUtilizador": "one", "nrEstrelas": 5 },
+            { "idUtilizador": "three", "nrEstrelas": 4 }
+        ],
+        "filePath": "algebra_intro.pdf",
+        "customFields": {}
+    },
+    {
+        "_id": "2",
+        "tipo": "two",
+        "tema": "Science",
+        "cursoId": "two",
+        "titulo": "Physics Fundamentals",
+        "subtitulo": "Newton's Laws",
+        "dataCriacao": "2023-02-01",
+        "dataRegisto": "2023-02-02",
+        "idProdutor": "three",
+        "autor": "Jane Smith",
+        "visibilidade": true,
+        "classificacao": [
+            { "idUtilizador": "seven", "nrEstrelas": 5 }
+        ],
+        "filePath": "physics_fundamentals.pdf",
+        "customFields": {}
+    },
+    {
+        "_id": "3",
+        "tipo": "three",
+        "tema": "Literature",
+        "cursoId": "three",
+        "titulo": "Shakespeare's Works",
+        "subtitulo": "An Overview",
+        "dataCriacao": "2023-03-10",
+        "dataRegisto": "2023-03-11",
+        "idProdutor": "five",
+        "autor": "Emily Johnson",
+        "visibilidade": false,
+        "classificacao": [
+            { "idUtilizador": "four", "nrEstrelas": 4 },
+            { "idUtilizador": "five", "nrEstrelas": 3 }
+        ],
+        "filePath": "shakespeare_works.pdf",
+        "customFields": {}
+    },
+    {
+        "_id": "4",
+        "tipo": "four",
+        "tema": "History",
+        "cursoId": "four",
+        "titulo": "World War II",
+        "subtitulo": "Key Events",
+        "dataCriacao": "2023-04-05",
+        "dataRegisto": "2023-04-06",
+        "idProdutor": "six",
+        "autor": "Robert Brown",
+        "visibilidade": true,
+        "classificacao": [
+            { "idUtilizador": "nine", "nrEstrelas": 5 },
+            { "idUtilizador": "ten", "nrEstrelas": 4 }
+        ],
+        "filePath": "ww2_key_events.pdf",
+        "customFields": {}
+    },
+    {
+        "_id": "5",
+        "tipo": "five",
+        "tema": "Technology",
+        "cursoId": "five",
+        "titulo": "Introduction to Programming",
+        "subtitulo": "Getting Started with Python",
+        "dataCriacao": "2023-05-20",
+        "dataRegisto": "2023-05-21",
+        "idProdutor": "seven",
+        "autor": "Alice Davis",
+        "visibilidade": true,
+        "classificacao": [
+            { "idUtilizador": "eigth", "nrEstrelas": 5 }
+        ],
+        "filePath": "intro_programming_python.pdf",
+        "customFields": {}
+    },
+    {
+        "_id": "6",
+        "tipo": "one",
+        "tema": "Mathematics",
+        "cursoId": "six",
+        "titulo": "Calculus Basics",
+        "subtitulo": "Understanding Limits",
+        "dataCriacao": "2023-06-01",
+        "dataRegisto": "2023-06-02",
+        "idProdutor": "nine",
+        "autor": "Chris Wilson",
+        "visibilidade": false,
+        "classificacao": [
+            { "idUtilizador": "two", "nrEstrelas": 3 }
+        ],
+        "filePath": "calculus_basics.pdf",
+        "customFields": {}
+    },
+    {
+        "_id": "7",
+        "tipo": "two",
+        "tema": "Science",
+        "cursoId": "seven",
+        "titulo": "Biology 101",
+        "subtitulo": "Cell Structure",
+        "dataCriacao": "2023-07-15",
+        "dataRegisto": "2023-07-16",
+        "idProdutor": "ten",
+        "autor": "David Miller",
+        "visibilidade": true,
+        "classificacao": [
+            { "idUtilizador": "one", "nrEstrelas": 4 }
+        ],
+        "filePath": "biology_101.pdf",
+        "customFields": {}
+    },
+    {
+        "_id": "8",
+        "tipo": "three",
+        "tema": "Literature",
+        "cursoId": "eight",
+        "titulo": "Modern Poetry",
+        "subtitulo": "An Analysis",
+        "dataCriacao": "2023-08-20",
+        "dataRegisto": "2023-08-21",
+        "idProdutor": "two",
+        "autor": "Patricia Clark",
+        "visibilidade": true,
+        "classificacao": [
+            { "idUtilizador": "nine", "nrEstrelas": 5 },
+            { "idUtilizador": "six", "nrEstrelas": 4 }
+        ],
+        "filePath": "modern_poetry.pdf",
+        "customFields": {}
+    },
+    {
+        "_id": "9",
+        "tipo": "four",
+        "tema": "History",
+        "cursoId": "nine",
+        "titulo": "Ancient Civilizations",
+        "subtitulo": "A Comprehensive Study",
+        "dataCriacao": "2023-09-10",
+        "dataRegisto": "2023-09-11",
+        "idProdutor": "three",
+        "autor": "Samuel Green",
+        "visibilidade": false,
+        "classificacao": [
+            { "idUtilizador": "two", "nrEstrelas": 4 }
+        ],
+        "filePath": "ancient_civilizations.pdf",
+        "customFields": {}
+    },
+    {
+        "_id": "10",
+        "tipo": "five",
+        "tema": "Technology",
+        "cursoId": "ten",
+        "titulo": "Advanced JavaScript",
+        "subtitulo": "Deep Dive into ES6+",
+        "dataCriacao": "2023-10-05",
+        "dataRegisto": "2023-10-06",
+        "idProdutor": "five",
+        "autor": "Laura Lee",
+        "visibilidade": true,
+        "classificacao": [
+            { "idUtilizador": "four", "nrEstrelas": 5 },
+            { "idUtilizador": "three", "nrEstrelas": 4 }
+        ],
+        "filePath": "advanced_javascript.pdf",
+        "customFields": {}
+    }
+]

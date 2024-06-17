@@ -1,0 +1,82 @@
+[
+	{
+		"_id": "one",
+		"tipo": "Engenharia Informática",
+		"tema": "O Estudo de Informática.",
+		"cursoId": "nine",
+		"listaInscritos": ["one", "seven", "three"],
+		"listaRecursos": ["six", "five", "eight", "nine", "two"]
+	},
+	{
+		"_id": "two",
+		"tipo": "Ciências da Comunicação",
+		"tema": "Ver a vida atrás de uma câmara.",
+		"cursoId": "two",
+		"listaInscritos": ["nine", "four", "six", "ten", "seven", "five", "eight", "one", "three", "two"],
+		"listaRecursos": ["five", "ten", "six", "one", "four"]
+	},
+	{
+		"_id": "three",
+		"tipo": "Direito",
+		"tema": "A lei está acima de todos.",
+		"cursoId": "three",
+		"listaInscritos": ["two", "seven", "one", "six"],
+		"listaRecursos": ["eight", "three", "two", "ten", "six"]
+	},
+	{
+		"_id": "four",
+		"tipo": "Gestão",
+		"tema": "Saber gerir o nosso tempo.",
+		"cursoId": "seven",
+		"listaInscritos": ["six", "one", "ten", "eight", "four", "two", "five", "three"],
+		"listaRecursos": ["seven", "eight"]
+	},
+	{
+		"_id": "five",
+		"tipo": "Educação",
+		"tema": "O Futuro são as crianças.",
+		"cursoId": "five",
+		"listaInscritos": ["seven", "eight", "ten", "nine", "four", "six", "three", "two", "one"],
+		"listaRecursos": ["three"]
+	},
+	{
+		"_id": "six",
+		"tipo": "Biologia Aplicada",
+		"tema": "Enzimas e Células X e Y",
+		"cursoId": "six",
+		"listaInscritos": ["seven", "nine", "three", "one", "six", "four", "ten", "eight", "five"],
+		"listaRecursos": ["eight", "nine", "four", "seven", "five", "three", "ten", "six"]
+	},
+	{
+		"_id": "seven",
+		"tipo": "Ciências da Computação",
+		"tema": "Uma versão mais rasca de Informática.",
+		"cursoId": "seven",
+		"listaInscritos": ["six", "one", "ten", "two"],
+		"listaRecursos": ["nine", "eight", "four", "five", "two", "three"]
+	},
+	{
+		"_id": "eight",
+		"tipo": "Linhas e Curvas",
+		"tema": "tortor@icloud.net",
+		"cursoId": "six",
+		"listaInscritos": ["two", "eight", "seven", "ten"],
+		"listaRecursos": ["nine"]
+	},
+	{
+		"_id": "nine",
+		"tipo": "Psicologia",
+		"tema": "É um hobby.",
+		"cursoId": "nine",
+		"listaInscritos": ["two", "one", "six", "eight", "nine", "four", "ten", "three", "seven", "five"],
+		"listaRecursos": ["one", "ten", "three", "nine", "five", "six", "two", "four"]
+	},
+	{
+		"_id": "ten",
+		"tipo": "Medicina",
+		"tema": "É preciso estômago...",
+		"cursoId": "ten",
+		"listaInscritos": ["seven", "six", "one", "five"],
+		"listaRecursos": ["two", "five", "four", "six", "ten", "nine"]
+	}
+]

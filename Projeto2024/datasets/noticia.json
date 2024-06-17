@@ -1,0 +1,82 @@
+[
+    {
+        "_id": "1",
+        "dataNoticia": "2023-01-15T00:00:00Z",
+        "cursoId": "one",
+        "idRecurso": "one",
+        "conteudo": "This is the first news content.",
+        "autor": "one"
+    },
+    {
+        "_id": "2",
+        "dataNoticia": "2023-02-01T00:00:00Z",
+        "cursoId": "two",
+        "idRecurso": "two",
+        "conteudo": "Content for the second news.",
+        "autor": "two"
+    },
+    {
+        "_id": "3",
+        "dataNoticia": "2023-03-10T00:00:00Z",
+        "cursoId": "three",
+        "idRecurso": "three",
+        "conteudo": "Content for the third news.",
+        "autor": "three"
+    },
+    {
+        "_id": "4",
+        "dataNoticia": "2023-04-05T00:00:00Z",
+        "cursoId": "four",
+        "idRecurso": "four",
+        "conteudo": "Content for the fourth news.",
+        "autor": "four"
+    },
+    {
+        "_id": "5",
+        "dataNoticia": "2023-05-20T00:00:00Z",
+        "cursoId": "five",
+        "idRecurso": "five",
+        "conteudo": "Content for the fifth news.",
+        "autor": "five"
+    },
+    {
+        "_id": "6",
+        "dataNoticia": "2023-06-01T00:00:00Z",
+        "cursoId": "six",
+        "idRecurso": "six",
+        "conteudo": "Content for the sixth news.",
+        "autor": "six"
+    },
+    {
+        "_id": "7",
+        "dataNoticia": "2023-07-15T00:00:00Z",
+        "cursoId": "seven",
+        "idRecurso": "seven",
+        "conteudo": "Content for the seventh news.",
+        "autor": "seven"
+    },
+    {
+        "_id": "8",
+        "dataNoticia": "2023-08-20T00:00:00Z",
+        "cursoId": "eight",
+        "idRecurso": "eight",
+        "conteudo": "Content for the eighth news.",
+        "autor": "eight"
+    },
+    {
+        "_id": "9",
+        "dataNoticia": "2023-09-10T00:00:00Z",
+        "cursoId": "nine",
+        "idRecurso": "nine",
+        "conteudo": "Content for the ninth news.",
+        "autor": "nine"
+    },
+    {
+        "_id": "10",
+        "dataNoticia": "2023-10-05T00:00:00Z",
+        "cursoId": "ten",
+        "idRecurso": "ten",
+        "conteudo": "Content for the tenth news.",
+        "autor": "ten"
+    }
+]

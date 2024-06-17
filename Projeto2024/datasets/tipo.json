@@ -1,0 +1,22 @@
+[
+	{
+		"_id": "one",
+		"designacao": "Relatório"
+	},
+	{
+		"_id": "two",
+		"designacao": "Teste"
+	},
+	{
+		"_id": "three",
+		"designacao": "Artigo"
+	},
+	{
+		"_id": "four",
+		"designacao": "Livro"
+	},
+	{
+		"_id": "five",
+		"designacao": "Foto"
+	}
+]

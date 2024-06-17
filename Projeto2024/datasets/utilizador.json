@@ -1,0 +1,82 @@
+[
+	{
+		"_id": "one",
+		"name": "Vielka Travis",
+		"email": "egestas.blandit@aol.ca",
+		"role": 0,
+		"cursosFavoritos": ["one", "seven", "three"],
+		"recursosFavoritos": ["six", "five", "eight", "nine", "two"]
+	},
+	{
+		"_id": "two",
+		"name": "Evan Fox",
+		"email": "quam@google.couk",
+		"role": 1,
+		"cursosFavoritos": ["nine", "four", "six", "ten", "seven", "five", "eight", "one", "three", "two"],
+		"recursosFavoritos": ["five", "ten", "six", "one", "four"]
+	},
+	{
+		"_id": "three",
+		"name": "Alvin Harmon",
+		"email": "nulla.aliquet@protonmail.couk",
+		"role": 1,
+		"cursosFavoritos": ["two", "seven", "one", "six"],
+		"recursosFavoritos": ["eight", "three", "two", "ten", "six"]
+	},
+	{
+		"_id": "four",
+		"name": "Gage Vance",
+		"email": "lectus.convallis.est@outlook.net",
+		"role": 0,
+		"cursosFavoritos": ["six", "one", "ten", "eight", "four", "two", "five", "three"],
+		"recursosFavoritos": ["seven", "eight"]
+	},
+	{
+		"_id": "five",
+		"name": "Priscilla Alexander",
+		"email": "ligula.aenean@yahoo.org",
+		"role": 1,
+		"cursosFavoritos": ["seven", "eight", "ten", "nine", "four", "six", "three", "two", "one"],
+		"recursosFavoritos": ["three"]
+	},
+	{
+		"_id": "six",
+		"name": "Brent Boyd",
+		"email": "non.justo.proin@hotmail.net",
+		"role": 1,
+		"cursosFavoritos": ["seven", "nine", "three", "one", "six", "four", "ten", "eight", "five"],
+		"recursosFavoritos": ["eight", "nine", "four", "seven", "five", "three", "ten", "six"]
+	},
+	{
+		"_id": "seven",
+		"name": "Reece Osborne",
+		"email": "risus.quisque.libero@outlook.com",
+		"role": 1,
+		"cursosFavoritos": ["six", "one", "ten", "two"],
+		"recursosFavoritos": ["nine", "eight", "four", "five", "two", "three"]
+	},
+	{
+		"_id": "eight",
+		"name": "Cooper Montgomery",
+		"email": "tortor@icloud.net",
+		"role": 0,
+		"cursosFavoritos": ["two", "eight", "seven", "ten"],
+		"recursosFavoritos": ["nine"]
+	},
+	{
+		"_id": "nine",
+		"name": "Basil Pittman",
+		"email": "quis.pede@aol.com",
+		"role": 1,
+		"cursosFavoritos": ["two", "one", "six", "eight", "nine", "four", "ten", "three", "seven", "five"],
+		"recursosFavoritos": ["one", "ten", "three", "nine", "five", "six", "two", "four"]
+	},
+	{
+		"_id": "ten",
+		"name": "Ariel Suarez",
+		"email": "ac.libero.nec@icloud.edu",
+		"role": 1,
+		"cursosFavoritos": ["seven", "six", "one", "five"],
+		"recursosFavoritos": ["two", "five", "four", "six", "ten", "nine"]
+	}
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "_id": "1",
+        "cursoId": "one",
+        "idRecurso": "one",
+        "conteudo": "This is the content of the first publication.",
+        "dataRegisto": "2023-01-16T00:00:00Z",
+        "idAutor": "one",
+        "autor": "Vielka Travis",
+        "listaComentarios": [
+            {
+                "idUser": "two",
+                "nomeUser": "Evan Fox",
+                "comentario": "Great publication!"
+            },
+            {
+                "idUser": "three",
+                "nomeUser": "Alvin Harmon",
+                "comentario": "Very informative."
+            }
+        ]
+    },
+    {
+        "_id": "2",
+        "cursoId": "two",
+        "idRecurso": "two",
+        "conteudo": "Content for the second publication.",
+        "dataRegisto": "2023-02-02T00:00:00Z",
+        "idAutor": "two",
+        "autor": "Evan Fox",
+        "listaComentarios": [
+            {
+                "idUser": "one",
+                "nomeUser": "Vielka Travis",
+                "comentario": "Thanks for sharing!"
+            },
+            {
+                "idUser": "three",
+                "nomeUser": "Alvin Harmon",
+                "comentario": "I learned a lot."
+            }
+        ]
+    },
+    {
+        "_id": "3",
+        "cursoId": "three",
+        "idRecurso": "three",
+        "conteudo": "Content for the third publication.",
+        "dataRegisto": "2023-03-11T00:00:00Z",
+        "idAutor": "three",
+        "autor": "Alvin Harmon",
+        "listaComentarios": [
+            {
+                "idUser": "two",
+                "nomeUser": "Evan Fox",
+                "comentario": "Interesting read."
+            },
+            {
+                "idUser": "four",
+                "nomeUser": "Gage Vance",
+                "comentario": "Very detailed."
+            }
+        ]
+    },
+    {
+        "_id": "4",
+        "cursoId": "four",
+        "idRecurso": "four",
+        "conteudo": "Content for the fourth publication.",
+        "dataRegisto": "2023-04-06T00:00:00Z",
+        "idAutor": "four",
+        "autor": "Gage Vance",
+        "listaComentarios": [
+            {
+                "idUser": "one",
+                "nomeUser": "Vielka Travis",
+                "comentario": "Good job!"
+            },
+            {
+                "idUser": "five",
+                "nomeUser": "Priscilla Alexander",
+                "comentario": "Very helpful."
+            }
+        ]
+    },
+    {
+        "_id": "5",
+        "cursoId": "five",
+        "idRecurso": "five",
+        "conteudo": "Content for the fifth publication.",
+        "dataRegisto": "2023-05-21T00:00:00Z",
+        "idAutor": "five",
+        "autor": "Priscilla Alexander",
+        "listaComentarios": [
+            {
+                "idUser": "two",
+                "nomeUser": "Evan Fox",
+                "comentario": "Well explained."
+            },
+            {
+                "idUser": "six",
+                "nomeUser": "Brent Boyd",
+                "comentario": "Great resource."
+            }
+        ]
+    },
+    {
+        "_id": "6",
+        "cursoId": "six",
+        "idRecurso": "six",
+        "conteudo": "Content for the sixth publication.",
+        "dataRegisto": "2023-06-02T00:00:00Z",
+        "idAutor": "six",
+        "autor": "Brent Boyd",
+        "listaComentarios": [
+            {
+                "idUser": "one",
+                "nomeUser": "Vielka Travis",
+                "comentario": "Thanks for this!"
+            },
+            {
+                "idUser": "seven",
+                "nomeUser": "Reece Osborne",
+                "comentario": "Very useful."
+            }
+        ]
+    },
+    {
+        "_id": "7",
+        "cursoId": "seven",
+        "idRecurso": "seven",
+        "conteudo": "Content for the seventh publication.",
+        "dataRegisto": "2023-07-16T00:00:00Z",
+        "idAutor": "seven",
+        "autor": "Reece Osborne",
+        "listaComentarios": [
+            {
+                "idUser": "two",
+                "nomeUser": "Evan Fox",
+                "comentario": "Excellent."
+            },
+            {
+                "idUser": "eight",
+                "nomeUser": "Cooper Montgomery",
+                "comentario": "Very insightful."
+            }
+        ]
+    },
+    {
+        "_id": "8",
+        "cursoId": "eight",
+        "idRecurso": "eight",
+        "conteudo": "Content for the eighth publication.",
+        "dataRegisto": "2023-08-21T00:00:00Z",
+        "idAutor": "eight",
+        "autor": "Cooper Montgomery",
+        "listaComentarios": [
+            {
+                "idUser": "three",
+                "nomeUser": "Alvin Harmon",
+                "comentario": "Nice work!"
+            },
+            {
+                "idUser": "six",
+                "nomeUser": "Brent Boyd",
+                "comentario": "Thanks for this!"
+            }
+        ]
+    },
+    {
+        "_id": "9",
+        "cursoId": "nine",
+        "idRecurso": "nine",
+        "conteudo": "Content for the ninth publication.",
+        "dataRegisto": "2023-09-11T00:00:00Z",
+        "idAutor": "nine",
+        "autor": "Basil Pittman",
+        "listaComentarios": [
+            {
+                "idUser": "two",
+                "nomeUser": "Evan Fox",
+                "comentario": "Very informative."
+            },
+            {
+                "idUser": "seven",
+                "nomeUser": "Reece Osborne",
+                "comentario": "Good content."
+            }
+        ]
+    },
+    {
+        "_id": "10",
+        "cursoId": "ten",
+        "idRecurso": "ten",
+        "conteudo": "Content for the tenth publication.",
+        "dataRegisto": "2023-10-06T00:00:00Z",
+        "idAutor": "ten",
+        "autor": "Ariel Suarez",
+        "listaComentarios": [
+            {
+                "idUser": "five",
+                "nomeUser": "Priscilla Alexander",
+                "comentario": "Great publication."
+            },
+            {
+                "idUser": "nine",
+                "nomeUser": "Basil Pittman",
+                "comentario": "Very detailed."
+            }
+        ]
+    }
+]

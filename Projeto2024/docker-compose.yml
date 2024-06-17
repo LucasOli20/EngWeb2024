@@ -1,0 +1,75 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: app
+    build: ./APP
+    ports:
+      - "8080:8080"
+    depends_on:
+      - api
+    networks:
+      - recursosNetwork
+
+  api:
+    container_name: api
+    build: ./API
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
+    networks:
+      - recursosNetwork
+
+  auth:
+    container_name: auth
+    build: ./AUTH
+    ports:
+      - "9090:9090"
+    depends_on:
+      - mongodb
+    networks:
+      - recursosNetwork
+
+  mongodb:
+    container_name: mongodb
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    networks:
+      - recursosNetwork
+
+  mongo-init:
+    image: mongo:latest
+    volumes:
+      - ./datasets:/datasets
+    command: bash -c "
+      mongoimport --host mongodb -d proj -c curso --type json --file /datasets/curso.json --jsonArray &&
+      mongoimport --host mongodb -d proj -c noticia --type json --file /datasets/noticia.json --jsonArray &&
+      mongoimport --host mongodb -d proj -c publicacao --type json --file /datasets/publicacao.json --jsonArray &&
+      mongoimport --host mongodb -d proj -c recurso --type json --file /datasets/recurso.json --jsonArray &&
+      mongoimport --host mongodb -d proj -c tipo --type json --file /datasets/tipo.json --jsonArray &&
+      mongoimport --host mongodb -d proj -c utilizador --type json --file /datasets/utilizador.json --jsonArray"
+    networks:
+      - recursosNetwork
+
+  mongo-export:
+    image: mongo:latest
+    depends_on:
+      - mongodb
+    networks:
+      - recursosNetwork
+    command: bash -c "
+      mongoexport --host mongodb --db proj --collection curso --out /exports/curso.json --jsonArray &&
+      mongoexport --host mongodb --db proj --collection noticia --out /exports/noticia.json --jsonArray &&
+      mongoexport --host mongodb --db proj --collection publicacao --out /exports/publicacao.json --jsonArray &&
+      mongoexport --host mongodb --db proj --collection recurso --out /exports/recurso.json --jsonArray &&
+      mongoexport --host mongodb --db proj --collection tipo --out /exports/tipo.json --jsonArray &&
+      mongoexport --host mongodb --db proj --collection utilizador --out /exports/utilizador.json --jsonArray"
+    volumes:
+      - ./exports:/exports
+
+networks:
+  recursosNetwork:
+    name: recursosNetwork
+    driver: bridge
